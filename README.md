@@ -1,12 +1,14 @@
 # AutoProfiler
 
-Utilize the Haystack API to automatically pre-fill some basic info about a user's profile based on his or her profile picture.
+Utilize the Haystack API (account required: https://www.haystack.ai/user/signup) to automatically pre-fill some basic info about a user's profile based on his or her profile picture. 
 __Note:__ this only works on photos containing only one face. 
 
 ### Pre-filled fields
 - Gender (and confidence score)
 - Ethnicity (and confidence score)
 - Age
+
+__Note:__ Haystack can show other information like attractiveness, emotion, and face bounding rectangle. Gender, ethnicity, and age are the most common for profiles, however.
 
 ## Installation
 Copy `autoprofile.php` into your project directory.
