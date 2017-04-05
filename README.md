@@ -1,4 +1,4 @@
-# AutoProfiler
+# PHP - AutoProfiler - Face Analysis API
 
 Utilize the Haystack API (account required from [Haystack Face Analysis API](https://www.haystack.ai/user/signup)) to automatically pre-fill some basic info about a user's profile based on his or her profile picture. 
 __Note:__ this only works on photos containing only one face. 
