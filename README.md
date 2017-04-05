@@ -1,7 +1,15 @@
 # AutoProfiler
 
-Utilize the Haystack API (account required: https://www.haystack.ai/user/signup) to automatically pre-fill some basic info about a user's profile based on his or her profile picture. 
+Utilize the Haystack API (account required from [Haystack Face Analysis API](https://www.haystack.ai/user/signup)) to automatically pre-fill some basic info about a user's profile based on his or her profile picture. 
 __Note:__ this only works on photos containing only one face. 
+
+### Features
+- Gender Detection (using API)
+- Ethnicity Detection (using API)
+- Age Detection (using API)
+- Attractiveness (using API)
+- Emotion (using API)
+- Face Bounding Rectangle (using API)
 
 ### Pre-filled fields
 - Gender (and confidence score)
